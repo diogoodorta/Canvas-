@@ -5,27 +5,39 @@ ctx.fillStyle="black";
 ctx.fillRect(-50,500,500,500);
 
 ctx.moveTo(1,500);
-ctx.lineTo(210,50);
+ctx.lineTo(250,50);
 ctx.lineTo(390,300);
-ctx.StrokeStyle="black";
+ctx.strokeStyle="black";
 ctx.stroke();
 
 ctx.moveTo(300,500);
 ctx.lineTo(500,50);
 ctx.lineTo(700,500);
-ctx.StrokeStyle="black";
+ctx.strokeStyle="black";
 ctx.stroke();
 
 ctx.moveTo(610,300);
-ctx.lineTo(800,50);
-ctx.lineTo(1050,500);
-ctx.StrokeStyle="black";
+ctx.lineTo(770,50);
+ctx.lineTo(940,300);
+ctx.strokeStyle="black";
 ctx.stroke();
 
-ctx.moveTo(940,300);
+ctx.moveTo(850,500);
 ctx.lineTo(1050,50);
-ctx.lineTo(1250,500);
-ctx.StrokeStyle="black";
+ctx.lineTo(1300,500);
+ctx.strokeStyle="black";
+ctx.stroke();
+
+ctx.moveTo(1190,300);
+ctx.lineTo(1350,50);
+ctx.lineTo(1540,300);
+ctx.strokeStyle="black";
+ctx.stroke();
+
+ctx.moveTo(1450,500);
+ctx.lineTo(1650,50);
+ctx.lineTo(1900,500);
+ctx.strokeStyle="black";
 ctx.stroke();
 
 
